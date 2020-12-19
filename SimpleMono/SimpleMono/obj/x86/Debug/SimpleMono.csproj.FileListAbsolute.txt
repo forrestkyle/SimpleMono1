@@ -1,0 +1,56 @@
+C:\Users\fkyle\source\repos\SimpleMono\SimpleMono\bin\Windows\x86\Debug\Content\smile_1.png
+C:\Users\fkyle\source\repos\SimpleMono\SimpleMono\bin\Windows\x86\Debug\Content\smile_3.png
+C:\Users\fkyle\source\repos\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SimpleMono.exe
+C:\Users\fkyle\source\repos\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SimpleMono.pdb
+C:\Users\fkyle\source\repos\SimpleMono\SimpleMono\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\fkyle\source\repos\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\fkyle\source\repos\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\fkyle\source\repos\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\fkyle\source\repos\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\fkyle\source\repos\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\fkyle\source\repos\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\fkyle\source\repos\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\fkyle\source\repos\SimpleMono\SimpleMono\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\fkyle\source\repos\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\fkyle\source\repos\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\fkyle\source\repos\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\fkyle\source\repos\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\fkyle\source\repos\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\fkyle\source\repos\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\fkyle\source\repos\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\fkyle\source\repos\SimpleMono\SimpleMono\obj\x86\Debug\SimpleMono.csproj.CoreCompileInputs.cache
+C:\Users\fkyle\source\repos\SimpleMono\SimpleMono\obj\x86\Debug\SimpleMono.csproj.CopyComplete
+C:\Users\fkyle\source\repos\SimpleMono\SimpleMono\obj\x86\Debug\SimpleMono.exe
+C:\Users\fkyle\source\repos\SimpleMono\SimpleMono\obj\x86\Debug\SimpleMono.pdb
+C:\Users\fkyle\source\repos\SimpleMono\SimpleMono\bin\Windows\x86\Debug\Content\smile_1.xnb
+C:\Users\fkyle\source\repos\SimpleMono\SimpleMono\bin\Windows\x86\Debug\Content\smile_3.xnb
+C:\Users\fkyle\source\repos\SimpleMono\SimpleMono\obj\x86\Debug\SimpleMono.csprojAssemblyReference.cache
+C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\bin\Windows\x86\Debug\Content\goomba_static2.xnb
+C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\bin\Windows\x86\Debug\Content\mario_static.xnb
+C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\bin\Windows\x86\Debug\Content\smile_1.xnb
+C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\bin\Windows\x86\Debug\Content\smile_3.xnb
+C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\obj\x86\Debug\SimpleMono.csproj.CoreCompileInputs.cache
+C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\obj\x86\Debug\SimpleMono.csproj.CopyComplete
+C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\obj\x86\Debug\SimpleMono.exe
+C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\obj\x86\Debug\SimpleMono.pdb
+C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\bin\Windows\x86\Debug\Content\goomba_static2.png
+C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\bin\Windows\x86\Debug\Content\mario_static.png
+C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SimpleMono.exe
+C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SimpleMono.pdb
+C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\obj\x86\Debug\SimpleMono.csprojAssemblyReference.cache

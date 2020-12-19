@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMono", "SimpleMono\SimpleMono.csproj", "{574725BE-6EB4-401F-BB2F-6048D2907CB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{574725BE-6EB4-401F-BB2F-6048D2907CB4}.Debug|x86.ActiveCfg = Debug|x86
+		{574725BE-6EB4-401F-BB2F-6048D2907CB4}.Debug|x86.Build.0 = Debug|x86
+		{574725BE-6EB4-401F-BB2F-6048D2907CB4}.Release|x86.ActiveCfg = Release|x86
+		{574725BE-6EB4-401F-BB2F-6048D2907CB4}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {930D8A64-72EE-4C75-880A-B5A19497BA3F}
+	EndGlobalSection
+EndGlobal
