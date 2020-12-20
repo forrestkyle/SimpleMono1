@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Game1.cs" />
     <Compile Include="GraphicsSupport\Camera.cs" />
+    <Compile Include="GraphicsSupport\FontSupport.cs" />
     <Compile Include="GraphicsSupport\TexturedPrimitive.cs" />
     <Compile Include="InputWrapper.cs" />
     <Compile Include="Program.cs" />
@@ -67,6 +68,8 @@
   <ItemGroup>
     <MonoGameContentReference Include="Content\Content.mgcb" />
     <None Include="app.manifest" />
+    <None Include="Content\arial_test.spritefont" />
+    <None Include="Content\white_rabbit.spritefont" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />

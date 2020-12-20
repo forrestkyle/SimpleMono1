@@ -54,3 +54,33 @@ C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of
 C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SimpleMono.exe
 C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SimpleMono.pdb
 C:\Users\fkyle\Dropbox\Data Management System\Operations\MVB Ops\Games\Legend of the Ultrasword\Code\sample_projects\SimpleMono\SimpleMono\obj\x86\Debug\SimpleMono.csprojAssemblyReference.cache
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\bin\Windows\x86\Debug\Content\smile_1.xnb
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\bin\Windows\x86\Debug\Content\smile_3.xnb
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\bin\Windows\x86\Debug\Content\goomba_static2.xnb
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\bin\Windows\x86\Debug\Content\mario_static.xnb
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\bin\Windows\x86\Debug\Content\goomba_static2.png
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\bin\Windows\x86\Debug\Content\mario_static.png
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SimpleMono.exe
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SimpleMono.pdb
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.dll
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.xml
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\obj\x86\Debug\SimpleMono.csproj.CoreCompileInputs.cache
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\obj\x86\Debug\SimpleMono.csproj.CopyComplete
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\obj\x86\Debug\SimpleMono.exe
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\obj\x86\Debug\SimpleMono.pdb
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\bin\Windows\x86\Debug\Content\arial_test.xnb
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\bin\Windows\x86\Debug\Content\white_rabbit.xnb

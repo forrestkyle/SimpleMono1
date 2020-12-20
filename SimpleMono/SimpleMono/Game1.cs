@@ -2,6 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Content;
+using SimpleMono.GraphicsSupport;
 
 namespace SimpleMono
 {
@@ -29,10 +30,10 @@ namespace SimpleMono
         //Texture2D mPNGImage;     // The UWB-PNG.png image to be loaded
         //Vector2 mPNGPosition;    // Top-Left pixel position of UWB-PNG.png
 
-        const int kNumObjects = 2;
+        const int numObjects = 2;
         // Work with the TexturedPrimitive class
-        TexturedPrimitive[] mGraphicsObjects; // An array of objects
-        int mCurrentIndex = 0;
+        TexturedPrimitive[] graphicsObjects; // An array of objects
+        int currentIndex = 0;
 
         public Game1()
         {
@@ -82,15 +83,15 @@ namespace SimpleMono
             Camera.SetCameraWindow(new Vector2(0f, 0f), 100f);
 
             // Create the primitives.
-            mGraphicsObjects = new TexturedPrimitive[kNumObjects];
+            graphicsObjects = new TexturedPrimitive[numObjects];
 
-            mGraphicsObjects[0] = new TexturedPrimitive("mario_static",               // Image file name
+            graphicsObjects[0] = new TexturedPrimitive("mario_static",           // Image file name
                                                         new Vector2(15, 15),     // Position to draw
                                                         new Vector2(30, 30));    // Size to draw
-            mGraphicsObjects[1] = new TexturedPrimitive("goomba_static2",
+            graphicsObjects[1] = new TexturedPrimitive("goomba_static2",
                                                         new Vector2(60, 60),
                                                         new Vector2(30, 30));
-
+            
         }
 
         /// <summary>
@@ -145,10 +146,10 @@ namespace SimpleMono
 
             // Button X to select the next object to work with
             if (InputWrapper.Buttons.X == ButtonState.Pressed)
-                mCurrentIndex = (mCurrentIndex + 1) % kNumObjects;
+                currentIndex = (currentIndex + 1) % numObjects;
 
             // Update currently working object with thumb sticks.
-            mGraphicsObjects[mCurrentIndex].Update(
+            graphicsObjects[currentIndex].Update(
                 InputWrapper.ThumbSticks.Left,
                 InputWrapper.ThumbSticks.Right);
 
@@ -166,17 +167,15 @@ namespace SimpleMono
             // TODO: Add your drawing code here
             spriteBatch.Begin(); // Initialize drawing support
 
-            // Draw the JPGImage
-            //spriteBatch.Draw(mJPGImage, mJPGPosition, Color.White);
-
-            // Draw the PNGImage
-            //spriteBatch.Draw(mPNGImage, mPNGPosition, Color.White);
-
             // Loop over and draw each primitive
-            foreach (TexturedPrimitive p in mGraphicsObjects)
+            foreach (TexturedPrimitive p in graphicsObjects)
             {
                 p.Draw();
             }
+
+            // Print out text message to echo status
+            FontSupport.PrintStatus("0x0000ABC Hackers Use This Font", Color.Yellow);
+            FontSupport.PrintStatusAt(graphicsObjects[0].GetPosition(), "// I AM MARIO //", Color.White);
 
             spriteBatch.End(); // Inform graphics system we are done drawing
 

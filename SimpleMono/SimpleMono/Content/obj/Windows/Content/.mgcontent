@@ -4,10 +4,14 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/fkyle/Dropbox/Data Management System/Operations/MVB Ops/Games/Legend of the Ultrasword/Code/sample_projects/SimpleMono/SimpleMono/Content/goomba_static2.png</File>
-    <File>C:/Users/fkyle/Dropbox/Data Management System/Operations/MVB Ops/Games/Legend of the Ultrasword/Code/sample_projects/SimpleMono/SimpleMono/Content/mario_static.png</File>
+    <File>C:/Data Management System/Operations/NLG/LotUS/SimpleMono/SimpleMono/Content/arial_test.spritefont</File>
+    <File>C:/Data Management System/Operations/NLG/LotUS/SimpleMono/SimpleMono/Content/goomba_static2.png</File>
+    <File>C:/Data Management System/Operations/NLG/LotUS/SimpleMono/SimpleMono/Content/mario_static.png</File>
+    <File>C:/Data Management System/Operations/NLG/LotUS/SimpleMono/SimpleMono/Content/white_rabbit.spritefont</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>

@@ -41,5 +41,10 @@ namespace SimpleMono
             Game1.spriteBatch.Draw(mImage, destRect, Color.White);
         }
 
+        public Vector2 GetPosition()
+        {
+            return mPosition;
+        }
+
     }
 }

@@ -13,23 +13,23 @@ namespace SimpleMono
 {
     static public class Camera
     {
-        static private Vector2 sOrigin = Vector2.Zero;   // Origin of the world
-        static private float sWidth = 100f;              // Width of the world
-        static private float sRatio = -1f;              // Ratio between camera window and pixel
+        static private Vector2 worldOrigin = Vector2.Zero;   // Origin of the world
+        static private float worldWidth = 100f;              // Width of the world
+        static private float ratio_pixelWidthToWorldWidth = -1f;              // Ratio between camera window and pixel
 
         static private float cameraWindowToPixelRatio()
         {
-            if (sRatio < 0f)
+            if (ratio_pixelWidthToWorldWidth < 0f)
             {
-                sRatio = (float)Game1.graphics.PreferredBackBufferWidth / sWidth;
+                ratio_pixelWidthToWorldWidth = (float)Game1.graphics.PreferredBackBufferWidth / worldWidth;
             }                
-            return sRatio;
+            return ratio_pixelWidthToWorldWidth;
         }
 
         static public void SetCameraWindow(Vector2 origin, float width)
         {
-            sOrigin = origin;
-            sWidth = width;
+            worldOrigin = origin;
+            worldWidth = width;
         }
 
         static public void ComputePixelPosition(Vector2 cameraPosition, out int x, out int y)
@@ -37,8 +37,8 @@ namespace SimpleMono
             float ratio = cameraWindowToPixelRatio();
 
             // Convert the position to pixel space
-            x = (int)(((cameraPosition.X - sOrigin.X) * ratio) + 0.5f);
-            y = (int)(((cameraPosition.Y - sOrigin.Y) * ratio) + 0.5f);
+            x = (int)(((cameraPosition.X - worldOrigin.X) * ratio) + 0.5f);
+            y = (int)(((cameraPosition.Y - worldOrigin.Y) * ratio) + 0.5f);
 
             y = Game1.graphics.PreferredBackBufferHeight - y;
         }

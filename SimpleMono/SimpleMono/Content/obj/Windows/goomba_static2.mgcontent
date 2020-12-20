@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/fkyle/Dropbox/Data Management System/Operations/MVB Ops/Games/Legend of the Ultrasword/Code/sample_projects/SimpleMono/SimpleMono/Content/goomba_static2.png</SourceFile>
+  <SourceFile>C:/Data Management System/Operations/NLG/LotUS/SimpleMono/SimpleMono/Content/goomba_static2.png</SourceFile>
   <SourceTime>2019-07-13T13:01:49.6125213-05:00</SourceTime>
-  <DestFile>C:/Users/fkyle/Dropbox/Data Management System/Operations/MVB Ops/Games/Legend of the Ultrasword/Code/sample_projects/SimpleMono/SimpleMono/Content/bin/Windows/goomba_static2.xnb</DestFile>
-  <DestTime>2019-07-13T13:03:39.6634457-05:00</DestTime>
+  <DestFile>C:/Data Management System/Operations/NLG/LotUS/SimpleMono/SimpleMono/Content/bin/Windows/goomba_static2.xnb</DestFile>
+  <DestTime>2020-12-19T19:58:53.1531014-06:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T10:35:54-06:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

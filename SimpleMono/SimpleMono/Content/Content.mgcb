@@ -13,6 +13,13 @@
 
 #---------------------------------- Content ---------------------------------#
 
+#begin arial_test.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:arial_test.spritefont
+
 #begin goomba_static2.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -36,4 +43,11 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:mario_static.png
+
+#begin white_rabbit.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:white_rabbit.spritefont
 
