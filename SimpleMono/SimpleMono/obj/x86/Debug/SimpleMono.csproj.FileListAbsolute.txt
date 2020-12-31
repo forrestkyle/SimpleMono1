@@ -84,3 +84,5 @@ C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\obj\x86\Deb
 C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\obj\x86\Debug\SimpleMono.pdb
 C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\bin\Windows\x86\Debug\Content\arial_test.xnb
 C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\bin\Windows\x86\Debug\Content\white_rabbit.xnb
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\obj\x86\Debug\SimpleMono.csprojAssemblyReference.cache
+C:\Data Management System\Operations\NLG\LotUS\SimpleMono\SimpleMono\bin\Windows\x86\Debug\Content\pacman_1.xnb

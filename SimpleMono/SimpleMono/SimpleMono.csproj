@@ -44,6 +44,7 @@
     <Compile Include="Game1.cs" />
     <Compile Include="GraphicsSupport\Camera.cs" />
     <Compile Include="GraphicsSupport\FontSupport.cs" />
+    <Compile Include="GraphicsSupport\SpritePrimitive.cs" />
     <Compile Include="GraphicsSupport\TexturedPrimitive.cs" />
     <Compile Include="InputWrapper.cs" />
     <Compile Include="Program.cs" />
@@ -63,6 +64,7 @@
     <Content Include="Content\mario_static.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\pacman_1.png" />
     <Content Include="Icon.ico" />
   </ItemGroup>
   <ItemGroup>

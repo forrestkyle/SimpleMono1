@@ -3,6 +3,8 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Content;
 using SimpleMono.GraphicsSupport;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace SimpleMono
 {
@@ -15,25 +17,15 @@ namespace SimpleMono
         static public ContentManager gameContent;
         static public SpriteBatch spriteBatch;
         
-        // 1080p
-        //const int windowWidth = 1920;
-        //const int windowHeight = 1080;
-        // 720p
-        const int windowWidth = 1280;
-        const int windowHeight = 720;
+        const int windowWidth = 1920;
+        const int windowHeight = 1080;
 
-        // Support for loading and drawing the JPG image
-        //Texture2D mJPGImage;     // The UWB-JPG.jpg image to be loaded
-        //Vector2 mJPGPosition;    // Top-Left pixel position of UWB-JPG.jpg
-
-        // Support for loading and drawing of the PNG image
-        //Texture2D mPNGImage;     // The UWB-PNG.png image to be loaded
-        //Vector2 mPNGPosition;    // Top-Left pixel position of UWB-PNG.png
-
-        const int numObjects = 2;
-        // Work with the TexturedPrimitive class
+        const int numObjects = 2;        
         TexturedPrimitive[] graphicsObjects; // An array of objects
         int currentIndex = 0;
+        SpritePrimitive pacman;
+
+        private FrameCounter frameCounter = new FrameCounter();
 
         public Game1()
         {
@@ -44,7 +36,7 @@ namespace SimpleMono
             // Set preferred window size
             graphics.PreferredBackBufferWidth = windowWidth;
             graphics.PreferredBackBufferHeight = windowHeight;
-            graphics.IsFullScreen = false;
+            graphics.IsFullScreen = true;
             graphics.ApplyChanges();
         }
 
@@ -56,13 +48,6 @@ namespace SimpleMono
         /// </summary>
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
-            // Initialize the initial image positions.
-            //mJPGPosition = new Vector2(10f, 10f);
-            //mPNGPosition = new Vector2(100f, 100f);
-
-
-
             base.Initialize();
         }
 
@@ -73,25 +58,27 @@ namespace SimpleMono
         protected override void LoadContent()
         {
             // Create a new SpriteBatch, which can be used to draw textures.
-            spriteBatch = new SpriteBatch(GraphicsDevice);
-            // Load the images.
-            //mJPGImage = Content.Load<Texture2D>("mario_static");
-            //mPNGImage = Content.Load<Texture2D>("goomba_static2");
-            // TODO: use this.Content to load your game content here
+            spriteBatch = new SpriteBatch(GraphicsDevice);            
 
             // Define camera window bounds
-            Camera.SetCameraWindow(new Vector2(0f, 0f), 100f);
+            Camera.SetCameraWindow(new Vector2(0f, 0f), 100f, 100f);
 
             // Create the primitives.
             graphicsObjects = new TexturedPrimitive[numObjects];
 
-            graphicsObjects[0] = new TexturedPrimitive("mario_static",           // Image file name
+            graphicsObjects[0] = new TexturedPrimitive("pacman_1",           // Image file name
                                                         new Vector2(15, 15),     // Position to draw
                                                         new Vector2(30, 30));    // Size to draw
             graphicsObjects[1] = new TexturedPrimitive("goomba_static2",
                                                         new Vector2(60, 60),
                                                         new Vector2(30, 30));
-            
+
+            pacman = new SpritePrimitive("pacman_1",
+                                                          new Vector2(20, 30), new Vector2(10, 10),
+                                                          4,
+                                                          4,
+                                                          0);
+            pacman.SetSpriteAnimation(0, 0, 0, 3, 5);
         }
 
         /// <summary>
@@ -110,10 +97,7 @@ namespace SimpleMono
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
-            //if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
-            //    Exit();
-
-            // TODO: Add your update logic here
+            pacman.Update(InputWrapper.ThumbSticks.Left, InputWrapper.ThumbSticks.Right);
 
             // "A" to toggle to full-screen mode
             if (InputWrapper.Buttons.A == ButtonState.Pressed)
@@ -140,20 +124,16 @@ namespace SimpleMono
                 this.Exit();
 
             // Update the image positions with left/right thumbsticks
-            //mJPGPosition += InputWrapper.ThumbSticks.Left;
-            //mPNGPosition += InputWrapper.ThumbSticks.Right;
-
 
             // Button X to select the next object to work with
-            if (InputWrapper.Buttons.X == ButtonState.Pressed)
-                currentIndex = (currentIndex + 1) % numObjects;
-
-            // Update currently working object with thumb sticks.
-            graphicsObjects[currentIndex].Update(
-                InputWrapper.ThumbSticks.Left,
-                InputWrapper.ThumbSticks.Right);
+            //if (InputWrapper.Buttons.X == ButtonState.Pressed)
+            //    currentIndex = (currentIndex + 1) % numObjects;
 
             base.Update(gameTime);
+
+            var deltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
+            frameCounter.Update(deltaTime);            
+
         }
 
         /// <summary>
@@ -162,24 +142,67 @@ namespace SimpleMono
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.Blue);
+            GraphicsDevice.Clear(Color.Black);
 
             // TODO: Add your drawing code here
             spriteBatch.Begin(); // Initialize drawing support
 
             // Loop over and draw each primitive
-            foreach (TexturedPrimitive p in graphicsObjects)
-            {
-                p.Draw();
-            }
+            //foreach (TexturedPrimitive p in graphicsObjects)
+            //{
+            //    p.Draw();
+            //}
+
+            pacman.Draw();
 
             // Print out text message to echo status
-            FontSupport.PrintStatus("0x0000ABC Hackers Use This Font", Color.Yellow);
-            FontSupport.PrintStatusAt(graphicsObjects[0].GetPosition(), "// I AM MARIO //", Color.White);
+            FontSupport.PrintStatus("0x0000ABC Hackers Use This Font", Color.Yellow);            
+
+            Vector2 lowerRight;
+            lowerRight.X = 90;
+            lowerRight.Y = 96;
+            FontSupport.PrintStatusAt(lowerRight, string.Format("FPS: {0}", frameCounter.AverageFramesPerSecond), Color.LimeGreen);
 
             spriteBatch.End(); // Inform graphics system we are done drawing
 
             base.Draw(gameTime);
+        }
+    }
+
+    public class FrameCounter
+    {
+        public FrameCounter()
+        {
+        }
+
+        public long TotalFrames { get; private set; }
+        public float TotalSeconds { get; private set; }
+        public float AverageFramesPerSecond { get; private set; }
+        public float CurrentFramesPerSecond { get; private set; }
+
+        public const int MAXIMUM_SAMPLES = 100;
+
+        private Queue<float> _sampleBuffer = new Queue<float>();
+
+        public bool Update(float deltaTime)
+        {
+            CurrentFramesPerSecond = 1.0f / deltaTime;
+
+            _sampleBuffer.Enqueue(CurrentFramesPerSecond);
+
+            if (_sampleBuffer.Count > MAXIMUM_SAMPLES)
+            {
+                _sampleBuffer.Dequeue();
+                AverageFramesPerSecond = _sampleBuffer.Average(i => i);                
+            }
+            else
+            {
+                AverageFramesPerSecond = CurrentFramesPerSecond;
+            }
+
+            TotalFrames++;
+            TotalSeconds += deltaTime;
+            return true;
         }
     }
 }

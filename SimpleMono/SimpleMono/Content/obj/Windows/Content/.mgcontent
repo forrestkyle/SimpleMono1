@@ -7,9 +7,11 @@
     <File>C:/Data Management System/Operations/NLG/LotUS/SimpleMono/SimpleMono/Content/arial_test.spritefont</File>
     <File>C:/Data Management System/Operations/NLG/LotUS/SimpleMono/SimpleMono/Content/goomba_static2.png</File>
     <File>C:/Data Management System/Operations/NLG/LotUS/SimpleMono/SimpleMono/Content/mario_static.png</File>
+    <File>C:/Data Management System/Operations/NLG/LotUS/SimpleMono/SimpleMono/Content/pacman_1.png</File>
     <File>C:/Data Management System/Operations/NLG/LotUS/SimpleMono/SimpleMono/Content/white_rabbit.spritefont</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

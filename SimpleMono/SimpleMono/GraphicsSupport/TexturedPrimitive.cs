@@ -23,13 +23,13 @@ namespace SimpleMono
             mSize = size;
         }
 
-        public void Update(Vector2 deltaTranslate, Vector2 deltaScale)
+        public virtual void Update(Vector2 deltaTranslate, Vector2 deltaScale)
         {
             mPosition += deltaTranslate;
             mSize += deltaScale;
         }
 
-        public void Draw()
+        public virtual void Draw()
         {
             // Defines where and size of the texture to show
             //Rectangle destRect = new Rectangle((int)mPosition.X, 
